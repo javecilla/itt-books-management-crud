@@ -1,0 +1,14 @@
+### Get students
+GET http://localhost:3000/users/students
+Authorization: Bearer YOUR_TOKEN_HERE
+
+### Create book
+POST http://localhost:3000/books
+Content-Type: application/json
+Authorization: Bearer YOUR_TOKEN_HERE
+
+{
+  "title": "Atomic Habits",
+  "description": "A habits book",
+  "coverImage": "https://example.com/book.jpg"
+}
